@@ -175,9 +175,9 @@ struct cpufreq_limit_hmp hmp_param = {
 	.big_cpu_start 			= 2,
 	.big_cpu_end			= 3,
 	.big_min_freq			= 300000,
-	.big_max_freq			= 2553600,
+	.big_max_freq			= 2496000,
 	.little_min_freq		= 300000,
-	.little_max_freq		= 1920000,
+	.little_max_freq		= 1824000,
 	.little_min_lock		= 960000 / 1, /* devide value is little_divider */
 
 	.little_divider			= 1,
