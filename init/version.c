@@ -45,6 +45,6 @@ const char linux_banner[] =
 	"davecotefilm"/*LINUX_COMPILE_HOST*/ ") (" LINUX_COMPILER ") " UTS_VERSION "\n";
 
 const char linux_proc_banner[] =
-	"3.18.71-g4127b46"
+	"%s version %s"
 	" (" "TOXIC"/*LINUX_COMPILE_BY*/ "@" "davecotefilm"/*LINUX_COMPILE_HOST*/ ")"
 	" (" LINUX_COMPILER ") %s\n";
